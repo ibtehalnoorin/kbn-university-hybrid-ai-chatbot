@@ -1,0 +1,43 @@
+{
+  "greetings": [
+    {
+      "patterns": ["^hello\\b", "^hi\\b", "^hey\\b", "^greetings", "^good\\s+(morning|afternoon|evening)", "^namaste\\b", "^salaam\\b"],
+      "responses": [
+        "Hello! I am the KBN University Assistant. How can I help you today with information about academic programs, admissions, campus facilities, or contact details?",
+        "Welcome to KBN University Assistant! Feel free to ask about our faculties, admission guidelines, course offerings, or campus information."
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "patterns": ["^/help", "^help\\b", "^what can you do"],
+      "response": "I am the official KBN University Assistant. You can ask me questions about:\n\n* **Academic Programs & Faculties**: Engineering, Medical, Nursing, Pharmacy, Science, Commerce, Arts.\n* **Admissions**: Application guidelines and eligibility requirements.\n* **Campus & Facilities**: Library, laboratories, hostels, student amenities.\n* **Contact & Location**: Official contact details and campus address in Kalaburagi, Karnataka.\n* **Verified Information**: Grounded in published pages on [kbn.university](https://www.kbn.university/)."
+    },
+    {
+      "patterns": ["^/about", "^about kbn university", "^tell me about kbn university", "^overview of kbn university"],
+      "response": "Khaja Bandanawaz University (KBN University) is a private university located in Kalaburagi (Gulbarga), Karnataka, India, established under Karnataka Act No. 23 of 2018. It is managed by the Khaja Education Society, founded in 1958. KBN University offers diverse undergraduate, postgraduate, and doctoral programs across Medical Sciences, Engineering, Pharmacy, Nursing, Law, Arts, Science, and Commerce."
+    }
+  ],
+  "faqs": [
+    {
+      "patterns": ["where is kbn university located", "location of kbn university", "kbn university address"],
+      "response": "KBN University is located at: **Khaja Bandanawaz University, Rauza-i Buzurg, Kalaburagi (Gulbarga) - 585104, Karnataka, India**.",
+      "url": "https://www.kbn.university/contact"
+    },
+    {
+      "patterns": ["what faculties are available", "list of faculties", "academic departments in kbn university", "what programs are offered"],
+      "response": "KBN University offers programs across several distinct faculties:\n1. **Faculty of Engineering & Technology**\n2. **Faculty of Medical Sciences**\n3. **Faculty of Nursing**\n4. **Faculty of Pharmacy**\n5. **Faculty of Science**\n6. **Faculty of Commerce & Management**\n7. **Faculty of Arts & Humanities**\n8. **Faculty of Law**\n\nFor details on individual degree programs, eligibility, and curriculum, please visit the academic sections on [kbn.university](https://www.kbn.university/).",
+      "url": "https://www.kbn.university/about"
+    },
+    {
+      "patterns": ["how to contact kbn university", "contact details", "phone number of kbn university", "email of kbn university"],
+      "response": "You can reach KBN University administration and admissions through their official contact channels:\n* **Address**: Rauza-i Buzurg, Kalaburagi - 585104, Karnataka\n* **Official Portal**: [https://www.kbn.university/contact](https://www.kbn.university/contact)\n* For specific department inquiries, refer to the official contact directory on the website.",
+      "url": "https://www.kbn.university/contact"
+    },
+    {
+      "patterns": ["is there an anti ragging committee", "anti ragging policy", "ragging complaints"],
+      "response": "Yes, KBN University enforces a strict zero-tolerance policy towards ragging. The university has a dedicated Anti-Ragging Committee and Cell in compliance with UGC/statutory regulations to ensure a safe, inclusive campus environment.",
+      "url": "https://www.kbn.university/anti-ragging"
+    }
+  ]
+}
